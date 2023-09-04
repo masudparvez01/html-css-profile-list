@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+}
+body {
+  background: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  top: 10px;
+}
+.container {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 500px;
+  height: 500px;
+  overflow: auto;
+  padding: 10px;
+  margin: 20px auto;
+}
+.profile-box {
+  width: 400px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: #e7e7e72d;
+  backdrop-filter: blur(20px);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.img-div {
+}
+.img-div img {
+  width: 75px;
+  border-radius: 50%;
+}
+.txt-div {
+  margin-left: 10px;
+}
+.social-icon {
+  display: flex;
+  gap: 15px;
+}
+.single-channel {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.single-channel {
+  background-color: #3e72da;
+  display: flex;
+  justify-content: center;
+  width: 145px;
+  height: 36px;
+  margin: 0;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.fa-solid,
+.fa-brands {
+  font-size: 20px;
+}
+.message-section {
+  background-color: white;
+}
+.message-section > a > i,
+.message-section > a > .text-size {
+  color: black;
+}
+.single-channel a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+.text-size {
+  position: relative;
+  top: -2px;
+}
+.txt-div .single-channel img {
+  width: 40px;
+  margin-top: -8px;
+  margin-bottom: -12px;
+  padding: 5px;
+}
